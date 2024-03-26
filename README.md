@@ -25,3 +25,4 @@ Familiarizing myself with Hasura and Vercel to test drive dev experience
 4. Click Launch console
 5. Click Data and connect existing db, select post gress and past in environment variable name PG_DATABASE_URL
 6. Going back to cloud.hasura.io overview page for proiject click on git deploy and sign in
+7. Go through prompts to configure github with hasura cloud
