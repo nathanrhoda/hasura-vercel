@@ -26,3 +26,19 @@ Familiarizing myself with Hasura and Vercel to test drive dev experience
 5. Click Data and connect existing db, select post gress and past in environment variable name PG_DATABASE_URL
 6. Going back to cloud.hasura.io overview page for proiject click on git deploy and sign in
 7. Go through prompts to configure github with hasura cloud
+
+## Create Next js project
+1. Create www folder from route and navigate to it cd www
+2. Type "npx create-next-app@latest --ts www" in terminal
+3. Make sure next js app was create successfully by running "npm run dev" 
+4. Push changes to github 
+5. Log onto vercel and click on start deploying and import github repo
+6. Configure correct folder to find next js app "www"
+7. Click deploy
+
+## Connect vercel to Hasura
+1. Navigate to Resources and Marketplace look for Hasura
+2. Connect vercel and hasura projects integrations together
+3. On your local machine install vercel cli "npm i -g vercel"
+4. Type "vercel link" in www folder
+5. Follow prompts and push to github
